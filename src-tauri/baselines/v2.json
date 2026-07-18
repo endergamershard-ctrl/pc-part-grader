@@ -1,0 +1,27 @@
+{
+  "scoringVersion": "2.0.0",
+  "referenceNote": "Reference values target a mainstream desktop (mid-range 6-core CPU, mid-range discrete GPU, NVMe SSD), derived from release-build measurements on an Ice Lake ultrabook scaled by hardware-class factors. 1000 means roughly that class of machine.",
+  "workloads": {
+    "json_parse": 170.0,
+    "text_search": 5000.0,
+    "compression": 9800.0,
+    "small_files": 90000.0,
+    "spreadsheet": 1400.0,
+    "sort_aggregate": 160.0,
+    "document_transform": 490.0,
+    "archive": 1400.0,
+    "image_pipeline": 110.0,
+    "cpu_render": 370.0,
+    "gpu_compute": 190.0,
+    "gpu_offscreen": 14500.0,
+    "gpu_transfer": 22.0,
+    "storage_sequential": 3500.0,
+    "storage_random": 45000.0
+  },
+  "tiers": [
+    { "name": "Entry", "minTotal": 0.0 },
+    { "name": "Mainstream", "minTotal": 850.0 },
+    { "name": "Enthusiast", "minTotal": 1400.0 },
+    { "name": "Extreme", "minTotal": 2200.0 }
+  ]
+}

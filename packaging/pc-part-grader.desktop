@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=PC Part Grader
+Comment=Grade your PC parts with transparent benchmark scores
+Exec=pc-part-grader
+Icon=pc-part-grader
+Terminal=false
+Categories=Utility;System;
+Keywords=benchmark;hardware;score;cpu;gpu;
+StartupNotify=true
